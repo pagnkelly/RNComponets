@@ -8,7 +8,7 @@ import {
   SafeAreaView
 } from 'react-native';
 
-const COMPONENTS = ['Popup', 'List_BackTop_Search'];
+const COMPONENTS = ['Popup', 'List_BackTop_Search', 'Hooks'];
 class Example extends Component {
 
   constructor(props) {

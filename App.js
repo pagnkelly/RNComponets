@@ -6,6 +6,7 @@ import { createAppContainer, createStackNavigator } from 'react-navigation';
 import Example from './src/example';
 import Popup from './src/popup';
 import List from './src/list';
+import Hooks from './src/hooks';
 
 const RouteConfig = {
     MainTab: {
@@ -18,6 +19,9 @@ const RouteConfig = {
     },
     List_BackTop_Search: {
         screen: List
+    },
+    Hooks: {
+        screen: Hooks
     }
 }
 

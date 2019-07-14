@@ -9,9 +9,15 @@
 ```sh
   yarn install
 
+  sudo npm install -g react-native-cli // 没有react-native-cli需执行
+
+  
   react-native link react-native-gesture-handler
 
-  react-native run-ios
+  sudo react-native run-ios
+
+  sudo xcode-select -s /Applications/Xcode.app/Contents/Developer/ // 找不到路径执行
+
 ```
 
 ---
